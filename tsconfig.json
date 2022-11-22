@@ -4,7 +4,7 @@
     "lib": ["ESNext"],
     "outDir": "./dist/package",
     "declaration": true,
-    "emitDeclarationOnly": true,
+    "emitDeclarationOnly": false,
     "moduleResolution": "node",
     "noUnusedLocals": false,
     "noImplicitOverride": true,
