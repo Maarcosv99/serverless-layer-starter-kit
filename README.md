@@ -1,5 +1,12 @@
 <h1 align="center">🌍 Serverless Layer Starter Kit</h1>
 <p align="center">To quickly create layer for microservices.</p>
+<p align="center">
+    <a
+        href="https://www.shawntorsitano.com/2022/06/19/creating-lambda-layers-with-typescript-and-cdk-the-right-way/"
+    >
+        📑 Based on this article.
+    </a>
+</p>
 
 ## Clone the repository
 
