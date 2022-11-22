@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "types": ["node","jest",],
+    "lib": ["ESNext"],
+    "outDir": "./dist/package",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noImplicitOverride": true,
+    "noUnusedParameters": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "target": "ES2020",
+    "strictNullChecks": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules/**/*",
+    ".serverless/**/*",
+    ".webpack/**/*",
+    "_warmup/**/*",
+    ".vscode/**/*",
+    ".idea/**/*",
+    ".git/**/*",
+    "src/**/*.spec.ts"
+  ],
+}

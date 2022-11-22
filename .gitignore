@@ -1,0 +1,18 @@
+# package directories
+node_modules
+dist/layer/nodejs/node_modules
+
+# serverless directories
+.serverless
+
+# esbuild directories
+.esbuild
+
+# code editor directories
+.idea
+.vscode
+lib
+
+# generated files
+src/**/*.js
+src/**/*.js.map
