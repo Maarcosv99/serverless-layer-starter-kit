@@ -1,5 +1,5 @@
 {
-  "name": "api_rest",
+  "name": "layer",
   "version": "1.0.0",
   "main": "./dist/package/index.js",
   "types": "./dist/package/index.d.ts",
@@ -8,9 +8,7 @@
   "keywords": [],
   "license": "ISC",
   "files": [
-    "dist/**/*",
-    "dist/index.d.ts",
-    "!**/*.map"
+    "dist/*package/**/*"
   ],
   "scripts": {
     "deploy:dev": "sls deploy --stage dev",
@@ -23,6 +21,7 @@
     "test": "jest src --runInBand --useStderr --verbose"
   },
   "devDependencies": {
+    "@serverless/typescript": "^3.21.0",
     "@types/jest": "^29.2.3",
     "@types/node": "^18.11.9",
     "esbuild": "^0.15.15",
