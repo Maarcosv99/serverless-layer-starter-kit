@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "module": "CommonJS",
     "types": ["node","jest",],
     "lib": ["ESNext"],
     "outDir": "./dist/package",
